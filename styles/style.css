@@ -1,0 +1,286 @@
+body {
+  background-color: aliceblue;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.address-header {
+  font-size: 19px;
+  margin-top: 50px;
+}
+
+.footer-cover-button {
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cover-footer {
+  text-align: center;
+  font-style: normal;
+  font-size: 22px;
+  color: aliceblue;
+  font-family: "Raleway", sans-serif;
+  margin-right: 150px;
+  word-spacing: 30px;
+}
+
+.cover-button {
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 22px;
+  background: transparent;
+
+  color: aliceblue;
+  font-family: "Raleway", sans-serif;
+  border: 2px solid aliceblue;
+  margin-right: 30px;
+}
+
+.grid-header {
+  position: relative;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  padding-top: 50px;
+  align-items: center;
+}
+
+.header-logo {
+  display: flex;
+}
+
+.cover {
+  height: 700px;
+  position: relative;
+  background-image: url(../images/cover_dark.jpg);
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.grid-cover {
+  position: relative;
+  width: auto;
+  height: 500px;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  font-size: 70px;
+  font-family: Raleway;
+  letter-spacing: 40px;
+  padding-left: 35px;
+}
+
+.card-title-1 {
+  grid-column: 1;
+  grid-row: 2;
+  margin: 0;
+  z-index: 2;
+  color: aliceblue;
+}
+
+.card-title-2 {
+  grid-column: 2;
+  grid-row: 3;
+  margin: 0;
+  z-index: 2;
+  color: aliceblue;
+}
+
+.card-title-3 {
+  grid-column: 3;
+  grid-row: 4;
+  margin: 0;
+  z-index: 2;
+  color: aliceblue;
+}
+
+.grid1 {
+  grid-row: 1/3;
+  justify-content: center;
+}
+
+.header-address {
+  padding-right: 30px;
+  justify-self: end;
+}
+
+.logo-image {
+  height: 105px;
+  width: 146px;
+  margin-top: 50px;
+}
+
+.menu-style {
+  list-style-type: circle;
+  display: flex;
+  margin-top: 50px;
+  padding-left: 30px;
+  font-size: 19px;
+}
+
+.menu-style li:first-child {
+  list-style-type: none;
+}
+
+.menu-style li {
+  padding-right: 30px;
+}
+
+.lots-head {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 50px;
+  font-family: "Raleway", sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.horizontal-lots-list {
+  list-style: none;
+  display: flex;
+  margin-left: 50px;
+  margin-right: 5%;
+  justify-content: space-between;
+}
+
+.card-grid {
+  position: absolute;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  color: aliceblue;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 0;
+  justify-items: center;
+  align-items: end;
+  z-index: 2;
+}
+
+.lots {
+  position: relative;
+  width: 430px;
+  height: 450px;
+}
+
+.lot1 {
+  background-image: url("../images/card-lot-01_dark.jpg");
+}
+.lot2 {
+  background-image: url("../images/card-lot-02_dark.jpg");
+}
+.lot3 {
+  background-image: url("../images/card-lot-03_dark.jpg");
+}
+
+.lots-header {
+  position: absolute;
+  top: 10px;
+  font-weight: 700;
+  color: aliceblue;
+  text-decoration: underline;
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+}
+
+.lots-footer {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 400;
+  color: aliceblue;
+  bottom: 50px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.lots-bottom {
+  margin-left: 40px;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.about {
+  display: grid;
+}
+
+.about-logo-footer {
+  display: flex;
+  width: 240px;
+  height: 240px;
+  background: black;
+  margin-top: 140px;
+  border-radius: 60%;
+}
+
+.logo_circle_picture {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.about-auction-title {
+  margin-left: 460px;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.about-auction-text1 {
+  margin-top: 100px;
+  margin-left: 460px;
+  font-size: 20px;
+  font-family: "Raleway";
+}
+
+.about-auction-text2 {
+  margin-top: 50px;
+  margin-left: 460px;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 150px;
+}
+
+.menu-footer {
+  font-size: 19px;
+  list-style: none;
+}
+
+.address-footer {
+  font-size: 19px;
+}
+
+.footer-references {
+  list-style: none;
+  display: flex;
+  gap: 23px 50px;
+  margin-left: 150px;
+}
+
+.footer-ut-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.footer-pinterest-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.footer-VK-icon {
+  width: 50px;
+  height: 50px;
+}
