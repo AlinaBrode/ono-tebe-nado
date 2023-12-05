@@ -4,10 +4,69 @@ body {
   margin: auto;
 }
 
+.grid-header {
+  position: relative;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  align-items: center;
+  height: 290px;
+}
+
+.grid1 {
+  grid-row: 1/3;
+  justify-content: center;
+}
+
+
+.header-logo {
+  display: flex;
+  margin-top: 40px;
+}
+
+
+.menu-style {
+  list-style-type: circle;
+  display: flex;
+  margin-top: 96px;
+  padding-left: 55px;
+  font-size: 18px;
+}
+
+.menu-style li:first-child {
+  list-style-type: none;
+}
+
+.menu-style li {
+  padding-right: 30px;
+}
+
 .address-header {
   font-size: 19px;
   margin-top: 50px;
 }
+
+.cover {
+  height: 755px;
+  position: relative;
+  background-image: url(../images/cover_dark.jpg);
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.grid-cover {
+  position: relative;
+  width: auto;
+  height: 500px;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  font-size: 70px;
+  font-family: Raleway;
+  letter-spacing: 40px;
+  padding-left: 35px;
+}
+
 
 .footer-cover-button {
   margin-top: 100px;
@@ -32,6 +91,7 @@ body {
   padding-bottom: 18px;
   padding-left: 30px;
   padding-right: 30px;
+  font-size: 22px;
   background: transparent;
 
   color: aliceblue;
@@ -40,39 +100,6 @@ body {
   margin-right: 30px;
 }
 
-.grid-header {
-  position: relative;
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  padding-top: 50px;
-  align-items: center;
-}
-
-.header-logo {
-  display: flex;
-}
-
-.cover {
-  height: 700px;
-  position: relative;
-  background-image: url(../images/cover_dark.jpg);
-  width: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.grid-cover {
-  position: relative;
-  width: auto;
-  height: 500px;
-  display: grid;
-  grid-template-rows: repeat(5, 1fr);
-  font-size: 70px;
-  font-family: Raleway;
-  letter-spacing: 40px;
-  padding-left: 35px;
-}
 
 .card-title-1 {
   grid-column: 1;
@@ -98,37 +125,20 @@ body {
   color: aliceblue;
 }
 
-.grid1 {
-  grid-row: 1/3;
-  justify-content: center;
-}
 
 .header-address {
-  padding-right: 30px;
+  margin-top:38px;
+  padding-right: 40px;
   justify-self: end;
 }
 
 .logo-image {
   height: 105px;
-  width: 146px;
+  width: 148px;
   margin-top: 50px;
+  margin-right: 178px;
 }
 
-.menu-style {
-  list-style-type: circle;
-  display: flex;
-  margin-top: 50px;
-  padding-left: 30px;
-  font-size: 19px;
-}
-
-.menu-style li:first-child {
-  list-style-type: none;
-}
-
-.menu-style li {
-  padding-right: 30px;
-}
 
 .lots-head {
   margin-top: 30px;
