@@ -46,13 +46,17 @@ body {
 }
 
 .cover {
-  height: 755px;
   position: relative;
   background-image: url(../images/cover_dark.jpg);
   width: auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 165px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 0;
+  margin: 0;
 }
 
 .grid-cover {
@@ -60,59 +64,33 @@ body {
   width: auto;
   height: 500px;
   display: grid;
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
   font-size: 70px;
   font-family: Raleway;
   letter-spacing: 40px;
-  padding-left: 35px;
-}
-
-
-.footer-cover-button {
-  margin-top: 100px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.cover-footer {
-  text-align: center;
-  font-style: normal;
-  font-size: 22px;
-  color: aliceblue;
-  font-family: "Raleway", sans-serif;
-  margin-right: 150px;
-  word-spacing: 30px;
-}
-
-.cover-button {
-  font-size: 22px;
-  padding-top: 10px;
-  padding-bottom: 18px;
-  padding-left: 30px;
-  padding-right: 30px;
-  background: transparent;
-  color: aliceblue;
-  font-family: "Raleway", sans-serif;
-  border: 2px solid aliceblue;
-  margin-right: 30px;
+  padding-bottom: 134px;
+  margin: 0;
 }
 
 
 .card-title-1 {
+  display: flex;
   grid-column: 1;
   grid-row: 2;
   margin: 0;
   z-index: 2;
   color: aliceblue;
+  text-align: start;
 }
 
 .card-title-2 {
+  display: flex;
   grid-column: 2;
   grid-row: 3;
   margin: 0;
   z-index: 2;
   color: aliceblue;
+  text-align: center;
 }
 
 .card-title-3 {
@@ -121,31 +99,54 @@ body {
   margin: 0;
   z-index: 2;
   color: aliceblue;
+ justify-self: end;
 }
+
+.footer-cover-button {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 50px;
+}
+
+.cover-footer {
+  display: flex;
+ align-items: center;
+  font-style: normal;
+  font-size: 22px;
+  color: aliceblue;
+  font-family: "Raleway", sans-serif;
+  word-spacing: 30px;
+  margin-right: 65px;
+}
+
+.cover-button {
+  font-weight: 400;
+  width: 257px;
+  height: 52px;
+  font-size: 22px;
+  justify-content: center;
+  text-transform: uppercase;
+  background: transparent;
+  color: aliceblue;
+  font-family: "Raleway", sans-serif;
+  border: 2px solid aliceblue;
+}
+
 
 
 .header-address {
   justify-self: end;
 }
 
-.card-grid {
-  position: absolute;
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-columns: repeat(3, 1fr);
-  color: aliceblue;
-  width: 10px;
-  height: 10px;
-  top: 0;
-  left: 0;
-  justify-items: center;
-  align-items: end;
-  z-index: 2;
-}
 
 .lots {
   position: relative;
   width: 430px;
   height: 450px;
+  margin: 0;
+  padding: 180px 29px 0 79px;
   
 }
 .lots-head {
@@ -160,34 +161,58 @@ body {
 }
 .horizontal-lots-list {
   list-style: none;
+  max-width: 1340px;
   display: flex;
-  margin-left: 28px;
-  margin-right: 5%;
   justify-content: space-between;
-  margin-top: 28px;
+  background-size: cover;
+  margin-left: 25px;
+  margin-right: 25px;
+
 }
 .lot1 {
   background-image: url("../images/card-lot-01_dark.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .lot2 {
   background-image: url("../images/card-lot-02_dark.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .lot3 {
   background-image: url("../images/card-lot-03_dark.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .lots-header {
+  margin: 0;
   position: absolute;
   top: 10px;
-  font-weight: 700;
   color: aliceblue;
   text-decoration: underline;
   font-family: "Raleway", sans-serif;
   font-size: 22px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-top: 30px;
+  max-width: 400px;
+  padding-top: 50px;
+  line-height: 120%;
+  font-weight: bold;
+ 
+  
+  
 }
 
 .lots-footer {
@@ -197,9 +222,11 @@ body {
   color: aliceblue;
   bottom: 50px;
   font-family: "Raleway", sans-serif;
-  font-style: normal;
-  padding-left: 30px;
-  padding-right: 30px;
+  font-style:normal;
+  max-width: 350px;
+  justify-content: center;
+  line-height: 120%;
+
 }
 
 .lots-bottom {
@@ -284,6 +311,8 @@ body {
 .menu-footer-main {
   display: flex;
   justify-content: center;
+  font-family: 19px;
+ 
 }
 
 .footer-link {
