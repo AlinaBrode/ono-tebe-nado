@@ -47,71 +47,62 @@ body {
 
 .cover {
   position: relative;
+  display: flex;
+  flex-direction: column;
   background-image: url(../images/cover_dark.jpg);
-  width: auto;
+  width: 1445px;
+  height: 757px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding-top: 160px;
-  padding-left: 45px;
-  padding-right: 25px;
-  padding-bottom: 0;
+  padding-left: 55px;
+  padding-right: 20px;
   margin: 0;
 }
 
 .grid-cover {
+  display: flex;
   position: relative;
   width: auto;
-  height: 510px;
-  display: flex;
-  grid-template-columns: 1fr 1fr 1fr;
+  height: 520px;
+  align-items: stretch;
   font-size: 70px;
   font-family: "Raleway", sans-serif;
-  padding-bottom: 134px;
-  margin: 0;
+  padding-bottom: 114px;
+  padding-right: 5px;
+  justify-content: space-between;
 }
 
 
 .card-title-1 {
   display: flex;
-  grid-column: 1;
-  grid-row: 2;
-  margin: 0;
-  z-index: 2;
   color: aliceblue;
   text-align: start;
   letter-spacing: 25px;
-  word-spacing: -18px;
+  word-spacing: -25px;
+  align-self: flex-start;
+  justify-content: flex-start;
 }
 
 .card-title-2 {
   display: flex;
-  grid-column: 2;
-  grid-row: 3;
-  margin: 0;
-  z-index: 2;
   color: aliceblue;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  margin-top: 0px;
-  margin-left: 110px;
   letter-spacing: 27px;
   word-spacing: -20px;
+  padding-left: 48px;
 }
 
 .card-title-3 {
   display: flex;
-  grid-column: 2/4;
-  grid-row: 4/6;
-  z-index: 2;
   color: aliceblue;
   justify-content: flex-end;
   align-items: flex-end;
-  margin-bottom: 6px;
-  margin-left: 70px;
   letter-spacing: 26px;
   word-spacing: -20px;
+  padding-bottom: 10px;
 }
 
 .footer-cover-button {
@@ -120,17 +111,18 @@ body {
   align-items: center;
   justify-content: end;
   padding-bottom: 50px;
+  padding-right: 30px;
 }
 
 .cover-footer {
   display: flex;
- align-items: center;
+  align-items: center;
   font-style: normal;
   font-size: 22px;
   color: aliceblue;
   font-family: "Raleway", sans-serif;
   word-spacing: 18px;
-  margin-right: 65px;
+  margin-right: 78px;
 }
 
 .cover-button {
