@@ -154,9 +154,9 @@ body {
   
 }
 .lots-head {
-  margin-top: 155px;
+  margin-top: 160px;
   margin-bottom: 30px;
-  padding-left: 34px;
+  padding-left: 35px;
   font-family: "Raleway", sans-serif;
   font-size: 40px;
   text-transform: uppercase;
@@ -165,7 +165,7 @@ body {
 }
 .horizontal-lots-list {
   list-style: none;
-  max-width: 1340px;
+  max-width: 1350px;
   display: flex;
   justify-content: space-between;
   background-size: cover;
@@ -211,7 +211,8 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 22px;
   max-width: 400px;
-  padding-top: 50px;
+  padding-top: 38px;
+  padding-right: 20px;
   line-height: 120%;
   font-weight: bold;
  
@@ -224,7 +225,7 @@ body {
   font-size: 20px;
   font-weight: 400;
   color: aliceblue;
-  bottom: 50px;
+  bottom: 52px;
   font-family: "Raleway", sans-serif;
   font-style:normal;
   max-width: 350px;
@@ -238,6 +239,7 @@ body {
   font-size: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 .about {
@@ -245,9 +247,9 @@ body {
   position: relative;
   width: 1440px;
   height: 667px;
-  padding-top: 224px;
+  padding-top: 230px;
   padding-right: 50px;
-  padding-left: 50px;
+  padding-left: 51px;
 }
 
 .about-box-around-logo {
@@ -284,18 +286,22 @@ body {
 .about-auction-title {
   text-transform: uppercase;
   font-size: 40px;
+
 }
 
 .about-auction-text1 {
   padding-top: 100px;
   font-size: 20px;
   font-family: "Raleway", sans-serif;
+  padding-left: 2px;
 }
 
 .about-auction-text2 {
   padding-top: 22px;
   font-size: 20px;
   font-family: "Raleway", sans-serif;
+  padding-left: 2px;
+  padding-bottom: 2px;
 }
 
 .footer {
@@ -303,7 +309,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   padding-top: 225px;
   padding-left: 45px;
-  padding-right: 52px;
+  padding-right: 46px;
 }
 
 .menu-footer {
