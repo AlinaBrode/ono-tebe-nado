@@ -1,11 +1,6 @@
-body {
-  background-color: aliceblue;
-  max-width: 1440px;
-  margin: auto;
-}
+
 
 .grid-header {
-  margin: 0;
   max-width: 1440px;
   display: grid;
   grid-template-columns: 3fr 1fr 3fr;
@@ -67,7 +62,7 @@ body {
   padding-top: 160px;
   padding-left: 55px;
   padding-right: 20px;
-  margin: 0;
+  color:#fff;
 }
 
 .grid-cover {
@@ -86,7 +81,6 @@ body {
 
 .card-title-1 {
   display: flex;
-  color: aliceblue;
   text-align: start;
   letter-spacing: 30px;
   word-spacing: -25px;
@@ -97,7 +91,6 @@ body {
 
 .card-title-2 {
   display: flex;
-  color: aliceblue;
   justify-content: center;
   align-items: center;
   letter-spacing: 27px;
@@ -108,7 +101,6 @@ body {
 
 .card-title-3 {
   display: flex;
-  color: aliceblue;
   justify-content: flex-end;
   align-items: flex-end;
   letter-spacing: 30px;
@@ -131,7 +123,6 @@ body {
   align-items: center;
   font-style: normal;
   font-size: 22px;
-  color: aliceblue;
   font-family: "Raleway", sans-serif;
   word-spacing: 18px;
   margin-right: 78px;
@@ -145,9 +136,9 @@ body {
   justify-content: center;
   text-transform: uppercase;
   background: transparent;
-  color: aliceblue;
+  color:FFFFFF;
   font-family: "Raleway", sans-serif;
-  border: 2px solid aliceblue;
+  border: 2px solid #fff;
 }
 
 
@@ -161,7 +152,6 @@ body {
   position: relative;
   width: 430px;
   height: 450px;
-  margin: 0;
   padding: 180px 29px 0 79px;
   
 }
@@ -226,10 +216,8 @@ body {
 }
 
 .lots-header {
-  margin: 0;
   position: absolute;
   top: 10px;
-  color: aliceblue;
   text-decoration: underline;
   font-family: "Raleway", sans-serif;
   font-size: 22px;
@@ -238,19 +226,20 @@ body {
   padding-right: 20px;
   line-height: 120%;
   font-weight: bold;
+  color: #fff;
 }
 
 .lots-footer {
   position: absolute;
   font-size: 20px;
   font-weight: 400;
-  color: aliceblue;
   bottom: 52px;
   font-family: "Raleway", sans-serif;
   font-style:normal;
   max-width: 350px;
   justify-content: center;
   line-height: 120%;
+  color: #fff;
 
 }
 
@@ -362,17 +351,9 @@ body {
   padding-right: 3px;
 }
 
-.footer-ut-icon {
+.footer-references-item {
   width: 50px;
   height: 50px;
+
 }
 
-.footer-pinterest-icon {
-  width: 50px;
-  height: 50px;
-}
-
-.footer-VK-icon {
-  width: 50px;
-  height: 50px;
-}
