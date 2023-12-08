@@ -177,7 +177,7 @@ body {
   
 }
 
-.horizontal-lots-list{
+.horizontal-lots-list {
   list-style: none;
   max-width: 1340px;
   display: flex;
@@ -187,6 +187,7 @@ body {
   margin-right: 25px;
   margin-bottom: 29px;
 }
+
 .horizontal-lots-list-item {
   flex-grow: 1;
   flex-shrink: 1;
@@ -333,13 +334,13 @@ body {
   padding-right: 46px;
 }
 
-.menu-footer-list{
+.menu-footer-list {
   font-size: 19px;
   list-style: none;
   justify-self: center;
 }
 
-.footer-menu-item{
+.footer-menu-item {
   display: flex;
   justify-content: center;
   font-family: "Raleway", sans-serif;
@@ -350,7 +351,7 @@ body {
   justify-content: center;
 }
 
-.footer-menu-link:hover{
+.footer-menu-link:hover {
   display: flex;
   justify-content: center;
 }
