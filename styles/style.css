@@ -45,7 +45,15 @@ body {
   width: 240px;
   padding-top: 5px;
 }
-
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
 .cover {
   position: relative;
   display: flex;
@@ -68,7 +76,7 @@ body {
   width: auto;
   height: 520px;
   align-items: stretch;
-  font-size: 70px;
+  font-size: 100px;
   font-family: "Raleway", sans-serif;
   padding-bottom: 114px;
   padding-right: 5px;
@@ -80,10 +88,11 @@ body {
   display: flex;
   color: aliceblue;
   text-align: start;
-  letter-spacing: 25px;
+  letter-spacing: 30px;
   word-spacing: -25px;
   align-self: flex-start;
   justify-content: flex-start;
+  line-height: 115%;
 }
 
 .card-title-2 {
@@ -93,7 +102,8 @@ body {
   align-items: center;
   letter-spacing: 27px;
   word-spacing: -20px;
-  padding-left: 48px;
+  padding-left: 35px;
+  line-height: 110%;
 }
 
 .card-title-3 {
@@ -101,9 +111,10 @@ body {
   color: aliceblue;
   justify-content: flex-end;
   align-items: flex-end;
-  letter-spacing: 26px;
+  letter-spacing: 30px;
   word-spacing: -20px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+  line-height: 110%;
 }
 
 .footer-cover-button {
@@ -166,7 +177,7 @@ body {
   
 }
 
-.horizontal-lots-list {
+.horizontal-lots-list{
   list-style: none;
   max-width: 1340px;
   display: flex;
@@ -175,6 +186,12 @@ body {
   margin-left: 50px;
   margin-right: 25px;
   margin-bottom: 29px;
+}
+.horizontal-lots-list-item {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 430px;
+  min-height: 450px;
 }
 
 .lot1 {
@@ -191,7 +208,7 @@ body {
   background-image: url("../images/card-lot-02_dark.jpg");
   background-position: center;
   background-size: cover;
-  padding-left: 40px;
+  padding-left: 60px;
   padding-right: 40px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -201,7 +218,7 @@ body {
   background-image: url("../images/card-lot-03_dark.jpg");
   background-position: center;
   background-size: cover;
-  padding-left: 30px;
+  padding-left: 50px;
   padding-right: 40px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -220,14 +237,6 @@ body {
   padding-right: 20px;
   line-height: 120%;
   font-weight: bold;
-}
-
-.fix-lot-3 {
-  padding-left: 10px;
-}
-
-.fix-lot-footer-3 {
-  padding-left: 10px;
 }
 
 .lots-footer {
@@ -324,24 +333,24 @@ body {
   padding-right: 46px;
 }
 
-.menu-footer {
+.menu-footer-list{
   font-size: 19px;
   list-style: none;
   justify-self: center;
 }
 
-.menu-footer-main {
+.footer-menu-item{
   display: flex;
   justify-content: center;
   font-family: "Raleway", sans-serif;
 }
 
-.footer-link {
+.footer-menu-link {
   display: flex;
   justify-content: center;
 }
 
-.footer-link-auction {
+.footer-menu-link:hover{
   display: flex;
   justify-content: center;
 }

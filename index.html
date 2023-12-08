@@ -11,8 +11,8 @@
   </head>
   <body>
     <header class="header">
-      <section class="grid-header">
-        <div class="grid1">
+      <nav class="grid-header">
+        <nav class="grid1">
           <ul class="menu-style">
             <li>главная</li>
             <li class="header-link-lots">
@@ -22,7 +22,7 @@
               <a class="header_-link" href="#">об аукционе</a>
             </li>
           </ul>
-        </div>
+        </nav>
         <div class="grid1-header-logo">
           <a>
             <img
@@ -42,26 +42,30 @@
             </p>
           </address>
         </div>
-      </section>
+      </nav>
     </header>
     <main>
-      <div class="cover">
-        <section class="grid-cover">
-          <h2 class="card-title-1">ОН О</h2>
-          <h2 class="card-title-2">ТЕБ Е</h2>
-          <h2 class="card-title-3">Н АДО</h2>
-        </section>
+      <section class="cover">
+        <div class="overlay"></div>
+        <h1 class="grid-cover">
+          <span class="card-title-1">ОН О</span>
+          <span class="card-title-2">ТЕБ Е</span>
+          <span class="card-title-3">Н АДО</span>
+        </h1>
         <div class="footer-cover-button">
           <p class="cover-footer">АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ</p>
           <button class="cover-button" type="button">Сделать ставку</button>
         </div>
-      </div>
+      </section>
+      <section>
       <div class="lots-head">
         <h2 class="lots-head">Лоты</h2>
       </div>
       <ul class="horizontal-lots-list">
-        <li>
-          <div class="lots lot1">
+        <li class="horizontal-lots-list-item">
+          <a class="card-link" href="#">
+          <article class="lots lot1">
+            <div class="overlay"></div>
             <p class="lots-header">
               ФИЛЬМ РЕЖИССЁРА, КОТОРЫЙ БРОСИЛ КИНОШКОЛУ
             </p>
@@ -69,43 +73,43 @@
               Не просто бросил, а ушел с первой лекции. Какой была бы ваша
               ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсен?
             </p>
-          </div>
+          </article>
         </li>
 
-        <li>
-          <div class="lots lot2">
+        <li class="horizontal-lots-list-item">
+          <a class="card-link" href="#">
+          <article class="lots lot2">
+            <div class="overlay"></div>
             <p class="lots-header">
               КНИГА, ГДЕ ОПИСАН ОДИН СКУЧНЫЙ ДЕНЬ ИЗ ЖИЗНИ РЕКЛАМНОГО АГЕНТА
             </p>
             <p class="lots-footer">
-              
-
-              Объемом почти в тысячу страниц.
-              Иногда без знаков препинания и с переходами на древнеанглийский<br>
-              В ней одновременно 
-              рассказывается о 16 июня 1904 года
-              и об истории литературы 
-              начиная с античных времен. И это всё
-              накладывается на эпическую поэму Гомера.
-              Сколько бы вы поставили 
-              на «Улисса» Джеймса Джойса?
+            
+              Объёмом почти в тысячу страниц. Иногда без знаков препинания и
+              с переходами на древнеанглийский. В ней одновременно
+              рассказывается о 16 июня 1904 года и об истории литературы,
+              начиная с античных времён. И это всё накладывается на
+              эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+              Джеймса Джойса?
             </p>
-          </div>
+          </article>
         </li>
-        <li>
-          <div class="lots lot3">
-            <p class="lots-header fix-lot-3">
+        <li class="horizontal-lots-list-item">
+          <a class="card-link" href="#">
+          <article class="lots lot3">
+            <div class="overlay"></div>
+            <p class="lots-header">
               КАРТИНА, КОТОРУЮ<br>
               ПОВТОРИТ ДАЖЕ 5-ЛЕТНИЙ<br>
               СЫН МАМИНОЙ ПОДРУГИ
             </p>
-            <p class="lots-footer fix-lot-footer-3">
+            <p class="lots-footer">
               Ну действительно, там линия, тут кружочек, а здесь и вовсе
-              что-то похожее на инфузорию-туфельку. Никаких
-              полей, лесов, котиков. Сколько бы вы на такое поставили,
-              если бы не знали, что это — одна из революционных работ Кандинского?
+              что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+              котиков… Сколько бы вы на такое поставили, если бы не знали,
+              что это — одна из революционных работ Кандинского?
             </p>
-          </div>
+          </article>
         </li>
       </ul>
       <a class="lots-bottom" href="#">посмотреть больше</a>
@@ -142,6 +146,7 @@
           </p>
         </div>
       </section>
+    </section>
     </main>
 
     <footer class="footer">
@@ -155,17 +160,17 @@
         </a>
         <p>наб. Принсенграхт 263-265,<br>Амстердам</p>
       </address>
-
-      <ul class="menu-footer">
-        <li class="menu-footer-main">главная</li>
-        <li class="footer-link">
-          <a class="footer-link" href="#">посмотреть лоты</a>
+      <nav class="menu-footer">
+      <ul class="menu-footer-list">
+        <li class="footer-menu-item">главная</li>
+        <li class="footer-menu-link">
+          <a class="footer-menu-link" href="#">посмотреть лоты</a>
         </li>
-        <li class="footer-link-auction">
-          <a class="footer-link-auction" href="#">об аукционе</a>
+        <li class="footer-menu-item">
+          <a class="footer-menu-link" href="#">об аукционе</a>
         </li>
       </ul>
-
+    </nav>
       <ul class="footer-references">
         <li>
           <a href="#" aria-label="Оно тебе надо  ссылка на YouTube">
