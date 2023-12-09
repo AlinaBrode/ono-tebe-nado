@@ -226,8 +226,6 @@
 .about {
   display: flex;
   position: relative;
-  max-width: 1440px;
-  height: 667px;
   padding-top: 180px;
   padding-right: 50px;
   padding-left: 51px;
@@ -236,19 +234,14 @@
 
 .about-box-around-logo {
   display: flex;
-  position: relative;
-  top: 0;
-  left: 0;
   justify-content: center;
   width: 430px;
   height: 240px;
 }
 
 .about-auction {
-  max-width: 885px;
-  height: 340px;
-  margin-left: auto;
-  margin-top: auto;
+  margin-left: 122px;
+  padding-top: 100px;
 }
 
 .about-logo-footer {
@@ -256,6 +249,7 @@
   width: 240px;
   background: black;
   border-radius: 50%;
+  margin-left: 92px;
 }
 
 .logo_circle_picture {
@@ -280,9 +274,10 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding-top: 180px;
+  padding-top: 102px;
   padding-left: 50px;
   padding-right: 46px;
+  margin-bottom: 97px;
 }
 
 .menu-footer-list {
