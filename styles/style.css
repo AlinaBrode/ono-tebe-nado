@@ -158,7 +158,6 @@
   align-self: center;
   list-style: none;
   max-width: 1340px;
-  display: flex;
   justify-content: space-between;
   margin-bottom: 33px;
   flex-wrap: wrap;
