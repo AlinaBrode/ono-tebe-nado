@@ -45,69 +45,74 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
+
 .cover {
   position: relative;
   display: flex;
   flex-direction: column;
   background-image: url(../images/cover_dark.jpg);
-  max-width: 1445px;
+  max-width: 1440px;
   height: 757px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 160px;
-  padding-left: 55px;
-  padding-right: 20px;
+  padding-top: 165px;
+  padding-left: 50px;
+  padding-right: 50px;
   color: #fff;
-}
-
-.grid-cover {
-  display: flex;
-  position: relative;
-  width: auto;
-  height: 520px;
-  align-items: stretch;
-  font-size: 100px;
-  font-family: "Raleway", sans-serif;
-  padding-bottom: 114px;
-  padding-right: 5px;
   justify-content: space-between;
 }
 
-.card-title-1 {
+.header-cover {
   display: flex;
-  text-align: start;
+  position: relative;
+  width: auto;
+  height: 360px;
+  align-items: stretch;
+  font-size: 100px;
+  font-family: "Raleway", sans-serif;
+  justify-content: space-between;
+}
+
+.card-title {
+  display: flex;
+  line-height: 110%;
   letter-spacing: 30px;
+}
+
+.card-title-zero-spacing {
+  letter-spacing: 0px;
+}
+
+.card-title-wide-spacing {
+  letter-spacing: 60px;
+}
+
+.card-title-1 {
+  text-align: start;
   align-self: flex-start;
   justify-content: flex-start;
   line-height: 115%;
 }
 
 .card-title-2 {
-  display: flex;
   justify-content: center;
   align-items: center;
-  letter-spacing: 27px;
-  padding-left: 35px;
-  line-height: 110%;
 }
 
 .card-title-3 {
-  display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  letter-spacing: 30px;
-  padding-bottom: 30px;
-  line-height: 110%;
+  text-align: left;
 }
 
 .footer-cover-button {
   display: flex;
   position: relative;
-  align-items: center;
+  align-self: flex-end;
   justify-content: end;
-  padding-bottom: 50px;
-  padding-right: 30px;
+  margin-bottom: 50px;
+  color: #FFF;
 }
 
 .cover-footer {
@@ -128,7 +133,7 @@
   justify-content: center;
   text-transform: uppercase;
   background: transparent;
-  color: FFFFFF;
+  color: #FFF;
   font-family: "Raleway", sans-serif;
   border: 1px solid currentColor;
   line-height: normal;
