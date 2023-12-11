@@ -27,11 +27,12 @@
   margin-right: 30px;
 }
 
-.address-header {
+.address {
   max-width: 240px;
   padding-top: 5px;
   justify-self: end;
   font-style: normal;
+  font-size: 18px;
   line-height: 24px;
 }
 
@@ -180,7 +181,7 @@
   justify-content: space-between;
   width: 430px;
   min-height: 450px;
-  padding: 40px 40px 50px 40px;
+  padding: 50px 40px 50px 40px;
   background-position: center;
   background-size: cover;
   background-repeat:no-repeat
@@ -200,7 +201,6 @@
 
 .lots-header {
   position: relative;
-  top: 10px;
   text-decoration: underline;
   font-family: "Raleway", sans-serif;
   font-size: 22px;
@@ -275,7 +275,7 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding-top: 102px;
+  padding-top: 99px;
   padding-left: 50px;
   padding-right: 46px;
   margin-bottom: 90px;
@@ -285,6 +285,7 @@
   font-size: 18px;
   list-style: none;
   justify-self: center;
+  line-height: 23px;
 }
 
 .footer-menu-item {
@@ -298,22 +299,8 @@
   justify-content: center;
 }
 
-.footer-menu-link:hover {
-  display: flex;
-  justify-content: center;
-}
-
-.address-footer {
-  font-size: 18px;
+.footer-address-position {
   justify-self: start;
-  padding-bottom: 30px;
-}
-.footer-address-link {
-  text-decoration: underline;
-  text-underline-position: under;
-}
-.footer-adress-no-under {
-  text-decoration: none;
 }
 
 .footer-references {
@@ -325,6 +312,9 @@
 }
 
 .footer-references-item {
-  width: 50px;
-  height: 50px;
+  max-width: 50px;
+}
+
+.footer-menu-link-active {
+  text-decoration: none;
 }
