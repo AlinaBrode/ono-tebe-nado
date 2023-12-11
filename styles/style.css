@@ -65,7 +65,6 @@
   display: flex;
   position: relative;
   width: auto;
-  height: 360px;
   align-items: stretch;
   font-size: 100px;
   font-family: "Raleway", sans-serif;
@@ -96,6 +95,9 @@
 .card-title-2 {
   justify-content: center;
   align-items: center;
+  margin-top: 130px;
+  margin-left: 10px;
+  margin-bottom: 120px;
 }
 
 .card-title-3 {
