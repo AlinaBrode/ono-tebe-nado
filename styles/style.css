@@ -2,10 +2,7 @@
   max-width: 1440px;
   display: grid;
   grid-template-columns: 3fr 1fr 3fr;
-  padding-top: 91px;
-  padding-bottom: 91px;
-  padding-right: 51px;
-  padding-left: 51px;
+  padding: 91px 51px 91px 51px;
   justify-content: space-between;
   align-items: center;
   font-size: 18px;
@@ -34,6 +31,8 @@
   max-width: 240px;
   padding-top: 5px;
   justify-self: end;
+  font-style: normal;
+  line-height: 24px;
 }
 
 .overlay {
@@ -43,7 +42,7 @@
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .cover {
@@ -52,7 +51,6 @@
   flex-direction: column;
   background-image: url(../images/cover_dark.jpg);
   max-width: 1440px;
-  height: 757px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -111,6 +109,7 @@
   position: relative;
   align-self: flex-end;
   justify-content: end;
+  margin-top: 130px;
   margin-bottom: 50px;
   color: #FFF;
 }
@@ -236,7 +235,6 @@
   display: flex;
   justify-content: center;
   width: 430px;
-  height: 240px;
 }
 
 .about-auction {
@@ -250,9 +248,10 @@
   background: black;
   border-radius: 50%;
   margin-left: 92px;
+  height: 240px;
 }
 
-.logo_circle_picture {
+.logo-circle-picture {
   width: 150px;
   height: 150px;
   margin: auto;
@@ -277,11 +276,11 @@
   padding-top: 102px;
   padding-left: 50px;
   padding-right: 46px;
-  margin-bottom: 97px;
+  margin-bottom: 90px;
 }
 
 .menu-footer-list {
-  font-size: 20px;
+  font-size: 18px;
   list-style: none;
   justify-self: center;
 }
