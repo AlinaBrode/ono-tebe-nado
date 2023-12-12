@@ -316,10 +316,11 @@
 }
 
 .footer-menu-link-active,
-.footer-social-link  {
+.footer-social-link {
   text-decoration: none;
 }
+
 .header-nav-menu-list-header-link-active,
-.card-link, {
+.card-link {
   text-decoration: none;
 }
