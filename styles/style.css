@@ -216,7 +216,7 @@
   font-weight: 400;
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  line-height: 120%;
+  line-height: normal;
   color: #fff;
 }
 
@@ -315,6 +315,11 @@
   max-width: 50px;
 }
 
-.footer-menu-link-active {
+.footer-menu-link-active,
+.footer-social-link  {
+  text-decoration: none;
+}
+.header-nav-menu-list-header-link-active,
+.card-link, {
   text-decoration: none;
 }
